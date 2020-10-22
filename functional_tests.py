@@ -3,7 +3,7 @@ import unittest
 
 
 class NewVisitorTest(unittest.TestCase):
-    ''' Тест нового посетителя '''
+    """ Тест нового посетителя """
 
     def setUp(self):
         self.browser = webdriver.Firefox()
